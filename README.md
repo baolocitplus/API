@@ -1,4 +1,4 @@
-## Laravel API Boilerplate (JWT Edition) for Laravel 5.5
+## Laravel API for Laravel 5.5
 
 Laravel API Boilerplate is a "starter kit" you can use to build your first API in seconds. As you can easily imagine, it is built on top of the awesome Laravel Framework. This version is built on Laravel 5.5!
 
@@ -23,8 +23,6 @@ I wrote a couple of articles on this project that explain how to write an entire
 
 Just be aware that some options in the `config/boilerplate.php` file are changed, so take a look to it.
 
-* [How to Build an API-Only JWT-Powered Laravel App](https://www.sitepoint.com/how-to-build-an-api-only-jwt-powered-laravel-app/)
-* [How to Consume Laravel API with AngularJS](https://www.sitepoint.com/how-to-consume-laravel-api-with-angularjs/)
 
 **WARNING:** the articles are old and Laravel 5.1 related. Just use them as "inspiration". Even without updated tutorials, they should be enough. 
 
@@ -142,9 +140,3 @@ In order to run tests:
 
 * create a `homestead_test` database on your machine;
 * run `phpunit`;
-
-If you want to specify a different name for the test database, don't forget to change the value in the `phpunix.xml` file.
-
-## Feedback
-
-I currently made this project for personal purposes. I decided to share it here to help anyone with the same needs. If you have any feedback to improve it, feel free to make a suggestion, or open a PR!
